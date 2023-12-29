@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "start": "tsnd  --respawn src/server.ts",
-    "test": "jest"
+    "test": "jest",
+    "test:unit": "jest -t 'Unit - '",
+    "test:int": "jest -t 'Int - '"
   },
   "dependencies": {
     "express": "^4.18.2",

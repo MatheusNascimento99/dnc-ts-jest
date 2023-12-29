@@ -1,6 +1,6 @@
 import { Sum } from "../sum";
 
-describe("libs suite", () => {
+describe("Unit - libs suite", () => {
   describe("sum suite", () => {
     it("should return true", () => {
       //informo o que deverá retornar

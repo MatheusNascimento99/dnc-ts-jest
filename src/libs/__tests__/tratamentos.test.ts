@@ -3,7 +3,7 @@ import { listaMokc } from "../__mocks__/tratamentos.mock";
 
 
 
-describe('teste suite', () => {
+describe('Unit - teste suite', () => {
     it('Deve retornar Isadora', () => {
         expect(ultimoValor(["Joaquim", "Vitor", "Isadora"])).toBe('Isadora')
     })

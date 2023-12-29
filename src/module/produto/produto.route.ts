@@ -13,7 +13,7 @@ router.get('/', async (_, res ) => {
 
 router.post('/', async (req, res) => {
   const data = await produtoModel.store(req.body);
-  return res.status(200).json({ data });
+  return res.status(201).json({ data });
 });
 
 router.post('/ultimo-valor',async (req, res) => {
